@@ -1,0 +1,90 @@
+@charset 'utf-8';
+#footer{
+	width:100%;
+	min-width:1230px;
+	border-color:#D1D7DC;
+}
+#f-top{
+	width:100%;
+	background:#fff;
+}
+
+#footer .fTopWrap{
+	width:1200px;
+	margin:auto;
+}
+#footer .fBotWrap{
+	width:1200px;
+	margin:auto;
+}
+#footer .ensureList{
+	height:90px;
+	width:239px;
+	padding:30px 0px 30px 50px;
+}
+#footer .line{
+	height:44px;
+	width:1px;
+	background:#D1D7DC;
+	margin-top:50px;
+}
+#footer .icon{
+	font-size:50px;
+	vertical-align:middle;
+}
+#footer .txtCon{
+	height:50px;
+	vertical-align:middle;
+}
+#footer .bottomtxt{
+	line-height:1.8;
+}
+#footer .tmall-ensure{
+	border-color:#D1D7DC;
+}
+#footer .descList{	
+	/*height:160px;*高度不写死*/
+	width:130px;
+	padding:25px 55px;
+	line-height:1.8;
+	
+}
+#footer .tmallPic{
+	left:50px;
+}
+/*footer下部分开始*/
+#f-bottom{
+	width:100%;
+	background:#000;
+	border-top:2px solid #c40000;
+	color:#fff;
+}
+#f-bottom .tmall-info{
+	line-height:35px;
+	padding:8px 0;
+}
+#f-bottom .txt-link{
+	line-height:1;
+	vertical-align:top;
+	padding:0 3px;
+}
+#f-bottom .other-links span{
+	border-color:#fff;
+	display:inline-block;
+	height:13px;
+	vertical-align:top;/*若失效则用display:block;加内外边距解决*/
+}
+#f-bottom .copyright-txt{
+	line-height:22px;
+	margin:5px 0;
+	color:#a4a4a4;
+}
+#f-bottom .copyright-txt a{
+	vertical-align:middle;
+	color:#a4a4a4;
+	margin-right:60px;
+}
+#f-bottom .copyright-txt p{
+	color:#686868;
+}
+/*footer下部分结束*/
